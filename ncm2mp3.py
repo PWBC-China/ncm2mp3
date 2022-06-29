@@ -5,7 +5,7 @@ import json
 import os
 from Crypto.Cipher import AES
 
-
+print("Last modified by pwbc in 2022")
 def dump(file_path):
     core_key = binascii.a2b_hex("687A4852416D736F356B496E62617857")
     meta_key = binascii.a2b_hex("2331346C6A6B5F215C5D2630553C2728")
@@ -92,4 +92,4 @@ if __name__ == '__main__':
         print(os.getcwd())
         file_name(os.getcwd())
     except:
-        print('不成')
+        print('转换不了:( 大概率是方法失效了')
